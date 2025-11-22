@@ -121,7 +121,7 @@ h1{
 }
 
 .active {
-    border-bottom: 1px solid #3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* navbar styles with dropdown toggle */
@@ -155,7 +155,7 @@ main {
     background-color: lightblue;
     /*Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 50px;
+    margin-top: 47px;
 }
 
 /* footer */
@@ -197,5 +197,11 @@ nav {
     main {
         /* Push main content down to accomodate larger header */
         margin-top: 79px;
+    }
+}
+/* Media query laptops and desktop (992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a
     }
 }
